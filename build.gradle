@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'tuantienti'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.7
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+}
